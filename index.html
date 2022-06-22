@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="round-completed">
+        <span>Congratulations</span>
+        <h1>Round Completed</h1>
+        <span class="play-again">Play Again</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Player: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <!-- game block -->
+    <div class="memory-game-blocks">
+        <div class="game-block" data-card="algeria">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/algeria.png" alt="algeria"></div>
+        </div>
+        <div class="game-block" data-card="algeria">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/algeria.png" alt="algeria"></div>
+        </div>
+        <div class="game-block" data-card="argentina">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/argentina.png" alt="argentina"></div>
+        </div>
+        <div class="game-block" data-card="argentina">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/argentina.png" alt="argentina"></div>
+        </div>
+        <div class="game-block" data-card="brazil">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/brazil.png" alt="brazil"></div>
+        </div>
+        <div class="game-block" data-card="brazil">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/brazil.png" alt="brazil"></div>
+        </div>
+        <div class="game-block" data-card="canada">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/canada.png" alt="canada"></div>
+        </div>
+        <div class="game-block" data-card="canada">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/canada.png" alt="canada"></div>
+        </div>
+        <div class="game-block" data-card="egypt">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/egypt.png" alt="egypt"></div>
+        </div>
+        <div class="game-block" data-card="egypt">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/egypt.png" alt="egypt"></div>
+        </div>
+        <div class="game-block" data-card="japan">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/japan.png" alt="japan"></div>
+        </div>
+        <div class="game-block" data-card="japan">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/japan.png" alt="japan"></div>
+        </div>
+        <div class="game-block" data-card="turkey">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/turkey.png" alt="turkey"></div>
+        </div>
+        <div class="game-block" data-card="turkey">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/turkey.png" alt="turkey"></div>
+        </div>
+        <div class="game-block" data-card="united-kingdom">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/united-kingdom.png" alt="united-kingdom"></div>
+        </div>
+        <div class="game-block" data-card="united-kingdom">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/united-kingdom.png" alt="united-kingdom"></div>
+        </div>
+        <div class="game-block" data-card="united-states">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/united-states.png" alt="united-states"></div>
+        </div>
+        <div class="game-block" data-card="united-states">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/united-states.png" alt="united-states"></div>
+        </div>
+        <div class="game-block" data-card="uzbekistan">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/uzbekistan.png" alt="uzbekistan"></div>
+        </div>
+        <div class="game-block" data-card="uzbekistan">
+            <div class="face front"></div>
+            <div class="face back"><img src="./images/uzbekistan.png" alt="uzbekistan"></div>
+        </div>
+    </div>
+    <audio src="./effects/success.wav" id="successEffect" preload="auto"></audio>
+    <audio src="./effects/lose.wav" id="loseEffect" preload="auto"></audio>
+    <audio src="./effects/win.wav" id="winEffect" preload="auto"></audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
