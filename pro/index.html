@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <div class="control-buttons">
+        <span class="start-game">Start Game</span>
+        <div>
+            <span>Game Cards -></span>
+            <select id="gameListSelect">
+                <option value="0">Flags</option>
+                <option value="1">Food</option>
+                <option value="2">Social Media</option>
+            </select>
+        </div>
+    </div>
+    <div class="round-completed">
+        <span>Congratulations</span>
+        <h1>Round Completed</h1>
+        <span class="play-again">Play Again</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Player: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <!-- game block -->
+    <div class="memory-game-blocks">
+        
+    </div>
+    <audio src="./effects/success.wav" id="successEffect" preload="auto"></audio>
+    <audio src="./effects/lose.wav" id="loseEffect" preload="auto"></audio>
+    <audio src="./effects/win.wav" id="winEffect" preload="auto"></audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
