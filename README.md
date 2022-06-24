@@ -1,2 +1,3 @@
 # memory-game
-### live demo: https://daishek.github.io/memory-game/beta/
+### beta version: https://daishek.github.io/memory-game/beta/
+### pro version: https://daishek.github.io/memory-game/pro/
